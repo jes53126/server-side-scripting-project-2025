@@ -7,8 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+    @include('partials.alerts')
+    @include('partials.navbar')
     <div class="container">
-        @include('partials.navbar')
         @yield('content')
     </div>
 </body>

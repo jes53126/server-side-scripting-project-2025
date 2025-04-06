@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('partials.alerts')
     <h1>Colleges</h1>
 
     <!-- Display Success Message -->
